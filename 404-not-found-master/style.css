@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600;800&family=Space+Mono:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
+  font-family: "Space Mono", monospace;
+}
+
+html {
+  font-size: 10px;
+}
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+.center {
+  text-align: center;
+  margin-top: 15%;
+}
+img {
+  width: 100%;
+}
+
+header {
+  margin-top: 5rem;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  padding-top: 10rem;
+}
+
+.img-box {
+  width: 70%;
+}
+
+nav h2 {
+  color: #333;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.92px;
+  text-transform: uppercase;
+}
+
+.text-box h1 {
+  color: #333;
+  font-family: Space Mono;
+  font-size: 6.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.24px;
+}
+
+.text-box p {
+  color: #4f4f4f;
+  font-family: Space Mono;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.84px;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.text-box button {
+  color: #fff;
+  background: #333;
+  font-family: Space Mono;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.49px;
+  text-transform: uppercase;
+  padding: 1.5rem;
+  cursor: pointer;
+}
+
+/* responsive Design  */
+
+@media only screen and (max-width: 900px) {
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 5rem;
+  }
+  .text-box h1 {
+    text-align: center;
+    color: #333;
+    font-family: Space Mono;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.68px;
+  }
+  .text-box p {
+    text-align: center;
+  }
+}
